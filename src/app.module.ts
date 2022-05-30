@@ -24,11 +24,11 @@ import { UserModule } from './user/user.module';
       host: 'ec2-52-4-104-184.compute-1.amazonaws.com',
       port: 5432,
       username: 'gpqfheityhluup',
-      password:
-        'a6f677b5727a17a27e8b2781fb978892f93548b08f456f80cbbe980c06b07739',
+      password: 'a6f677b5727a17a27e8b2781fb978892f93548b08f456f80cbbe980c06b07739',
       database: 'dc55trppl4p17t',
-      autoLoadEntities: true,
+      autoLoadEntities: false,
       synchronize: true,
+      entities:['dist/**/*.entity.js']
     }),
     UserModule,
     TaskModule,
