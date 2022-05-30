@@ -20,12 +20,13 @@ import { UserModule } from './user/user.module';
     //   synchronize: true,
     // }),
     TypeOrmModule.forRoot({
-      type:'postgres',
-      host:'ec2-3-234-131-8.compute-1.amazonaws.com',
+      type: 'postgres',
+      host: 'ec2-52-4-104-184.compute-1.amazonaws.com',
       port: 5432,
-      username:'gwlddzbrbqbqkg',
-      password:'ff32e59dcd130fd82bd2b8a4b0983114466e3ba6b1b70970e965d6c8ac90b50f',
-      database: 'd2aj1nk5hsc9lr',
+      username: 'gpqfheityhluup',
+      password:
+        'a6f677b5727a17a27e8b2781fb978892f93548b08f456f80cbbe980c06b07739',
+      database: 'dc55trppl4p17t',
       autoLoadEntities: true,
       synchronize: true,
     }),
